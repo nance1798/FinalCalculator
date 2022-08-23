@@ -8,97 +8,80 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/num2ET"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="350dp"
-        android:layout_marginBottom="336dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="288dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Second Number"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/Num_1"
+        android:id="@+id/num1ET"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginTop="350dp"
-        android:layout_marginEnd="250dp"
-        android:layout_marginBottom="336dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="328dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="First Number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/findProduct"
         android:layout_width="170dp"
         android:layout_height="80dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="580dp"
+        android:onClick="findProduct"
         android:text="Multiplication"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/findQuotient"
         android:layout_width="170dp"
         android:layout_height="80dp"
         android:layout_marginStart="200dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="580dp"
+        android:onClick="findQuotient"
         android:text="Division"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/findSum"
         android:layout_width="170dp"
         android:layout_height="80dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="140dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="500dp"
+        android:onClick="findSum"
         android:text="Addition"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/findDifference"
         android:layout_width="170dp"
         android:layout_height="80dp"
         android:layout_marginStart="200dp"
         android:layout_marginTop="140dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="500dp"
+        android:onClick="findDifference"
         android:text="Subtraction"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginBottom="100dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
