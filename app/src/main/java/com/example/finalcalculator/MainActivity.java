@@ -20,10 +20,18 @@ public class MainActivity extends AppCompatActivity {
         EditText number1ET = findViewById(R.id.num1ET);
         EditText number2ET = findViewById(R.id.num2ET);
         TextView numberSumTV = findViewById(R.id.resultTV);
+        double num1;
+        double num2;
+        double sum = 0;
+        try {
+            num1 = Integer.parseInt(number1ET.getText().toString());
+            num2 = Integer.parseInt(number2ET.getText().toString());
+            sum = num1 + num2;
+        } catch (Exception e) {
+            // Tomorrow I will add an area here that gets the text of a new text box
+            // that prints a message saying to retry and enter an integer
 
-        double num1 = Integer.parseInt(number1ET.getText().toString());
-        double num2 = Integer.parseInt(number2ET.getText().toString());
-        double sum = num1 + num2;
+        }
 
         numberSumTV.setText("" + sum);
     }
