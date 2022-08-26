@@ -11,7 +11,7 @@
     <EditText
         android:id="@+id/num2ET"
         android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="220dp"
         android:layout_marginBottom="288dp"
         android:ems="10"
@@ -22,7 +22,7 @@
     <EditText
         android:id="@+id/num1ET"
         android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="328dp"
         android:ems="10"
